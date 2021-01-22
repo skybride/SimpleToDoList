@@ -2,6 +2,7 @@ const key = new Date();
 const form = document.querySelector("form");
 const ul = document.querySelector("ul");
 const userInput = document.getElementById("input");
+const button = document.querySelector("button");
 
 let listItemsArray = localStorage.getItem("items") 
     ? JSON.parse(localStorage.getItem("items")) : []
@@ -25,3 +26,9 @@ form.addEventListener("submit", function(e) {
 listItems.forEach((item) =>{
     createItem(item);
 });
+
+ul.addEventListener("click", function(ev) {
+    if(ev.target.tagName === "LI"){
+        ev.target.classList.toggle("checked");
+    }
+}, false);
