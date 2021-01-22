@@ -1,0 +1,22 @@
+header, main, footer {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    margin-left: 30%;
+}
+
+footer {
+    margin-right: -25%;
+}
+
+li {
+    cursor: pointer;
+    
+}
+
+ul li.checked {
+    color: lightblue;
+    text-decoration: line-through;
+}
