@@ -32,3 +32,8 @@ ul.addEventListener("click", function(ev) {
         ev.target.classList.toggle("checked");
     }
 }, false);
+
+clearAll = () => {
+    localStorage.clear();
+    location.reload();
+}

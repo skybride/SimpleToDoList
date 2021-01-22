@@ -3,14 +3,6 @@ header, main, footer {
     justify-content: center;
 }
 
-section {
-    margin-left: 30%;
-}
-
-footer {
-    margin-right: -25%;
-}
-
 li {
     cursor: pointer;
     
