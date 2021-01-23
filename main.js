@@ -1,4 +1,3 @@
-const key = new Date();
 const form = document.querySelector("form");
 const ul = document.querySelector("ul");
 const userInput = document.getElementById("input");

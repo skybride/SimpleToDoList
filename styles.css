@@ -3,6 +3,14 @@ header, main, footer {
     justify-content: center;
 }
 
+@media screen and (min-width: 300px){
+    section {
+        display: flex;
+        justify-content: center;
+        margin-left: -5rem;
+    }
+}
+
 li {
     cursor: pointer;
     
