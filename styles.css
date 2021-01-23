@@ -11,7 +11,7 @@ header, main, footer {
     }
 }
 
-li {
+li, .deleteBtn {
     cursor: pointer;
     
 }
@@ -19,4 +19,9 @@ li {
 ul li.checked {
     color: lightblue;
     text-decoration: line-through;
+}
+
+.btn-danger {
+    display: flex;
+    justify-content: right;
 }
